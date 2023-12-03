@@ -11,7 +11,9 @@ import SwiftUI
 struct Veegil_BankApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           
+                ContentView()
+            
         }
     }
 }

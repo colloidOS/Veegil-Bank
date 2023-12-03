@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E03CBFE2B185F8D0086E9E1 /* DepositView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03CBFD2B185F8D0086E9E1 /* DepositView.swift */; };
+		0E03CC002B185FAC0086E9E1 /* withdrawalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03CBFF2B185FAC0086E9E1 /* withdrawalView.swift */; };
+		0E03CC022B185FD00086E9E1 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03CC012B185FD00086E9E1 /* TransactionsView.swift */; };
+		0E03CC042B1867890086E9E1 /* DepositViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E03CC032B1867890086E9E1 /* DepositViewModel.swift */; };
+		0E683D442B1B2AE800E4915D /* WithdrawalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E683D432B1B2AE800E4915D /* WithdrawalViewModel.swift */; };
+		0ECDC0B92B194C01006E3F7E /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECDC0B82B194C01006E3F7E /* TransactionsViewModel.swift */; };
 		0ED3EA7D2B17509300F951B0 /* Veegil_BankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EA7C2B17509300F951B0 /* Veegil_BankApp.swift */; };
 		0ED3EA7F2B17509300F951B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EA7E2B17509300F951B0 /* ContentView.swift */; };
 		0ED3EA812B17509600F951B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED3EA802B17509600F951B0 /* Assets.xcassets */; };
@@ -14,6 +20,18 @@
 		0ED3EA8E2B17509700F951B0 /* Veegil_BankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EA8D2B17509700F951B0 /* Veegil_BankTests.swift */; };
 		0ED3EA982B17509700F951B0 /* Veegil_BankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EA972B17509700F951B0 /* Veegil_BankUITests.swift */; };
 		0ED3EA9A2B17509700F951B0 /* Veegil_BankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EA992B17509700F951B0 /* Veegil_BankUITestsLaunchTests.swift */; };
+		0ED3EAAA2B17539300F951B0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EAA92B17539300F951B0 /* SignUpView.swift */; };
+		0ED3EAAC2B1753A600F951B0 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EAAB2B1753A600F951B0 /* LogInView.swift */; };
+		0ED3EAAE2B1753BB00F951B0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EAAD2B1753BB00F951B0 /* HomeView.swift */; };
+		0ED3EAB02B1756DF00F951B0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EAAF2B1756DF00F951B0 /* Extension.swift */; };
+		0ED3EAB22B17575C00F951B0 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EAB12B17575C00F951B0 /* LogInViewModel.swift */; };
+		0ED3EAB52B175A4800F951B0 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EAB42B175A4800F951B0 /* LogoView.swift */; };
+		0ED3EAB72B175C8E00F951B0 /* IsTappedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EAB62B175C8E00F951B0 /* IsTappedView.swift */; };
+		0ED3EAB92B17677E00F951B0 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EAB82B17677E00F951B0 /* SignUpViewModel.swift */; };
+		0ED3EABB2B176A6900F951B0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EABA2B176A6900F951B0 /* LoadingView.swift */; };
+		0ED3EABD2B17925300F951B0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EABC2B17925200F951B0 /* Models.swift */; };
+		0EF397B12B1916C50094A59F /* DepositHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF397B02B1916C50094A59F /* DepositHistoryView.swift */; };
+		0EF397B32B1916FB0094A59F /* WithdrawalHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF397B22B1916FB0094A59F /* WithdrawalHistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E03CBFD2B185F8D0086E9E1 /* DepositView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositView.swift; sourceTree = "<group>"; };
+		0E03CBFF2B185FAC0086E9E1 /* withdrawalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withdrawalView.swift; sourceTree = "<group>"; };
+		0E03CC012B185FD00086E9E1 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		0E03CC032B1867890086E9E1 /* DepositViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewModel.swift; sourceTree = "<group>"; };
+		0E683D432B1B2AE800E4915D /* WithdrawalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawalViewModel.swift; sourceTree = "<group>"; };
+		0ECDC0B82B194C01006E3F7E /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
 		0ED3EA792B17509300F951B0 /* Veegil Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Veegil Bank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED3EA7C2B17509300F951B0 /* Veegil_BankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veegil_BankApp.swift; sourceTree = "<group>"; };
 		0ED3EA7E2B17509300F951B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +68,18 @@
 		0ED3EA932B17509700F951B0 /* Veegil BankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veegil BankUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED3EA972B17509700F951B0 /* Veegil_BankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veegil_BankUITests.swift; sourceTree = "<group>"; };
 		0ED3EA992B17509700F951B0 /* Veegil_BankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veegil_BankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0ED3EAA92B17539300F951B0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		0ED3EAAB2B1753A600F951B0 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		0ED3EAAD2B1753BB00F951B0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0ED3EAAF2B1756DF00F951B0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		0ED3EAB12B17575C00F951B0 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		0ED3EAB42B175A4800F951B0 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		0ED3EAB62B175C8E00F951B0 /* IsTappedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTappedView.swift; sourceTree = "<group>"; };
+		0ED3EAB82B17677E00F951B0 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		0ED3EABA2B176A6900F951B0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		0ED3EABC2B17925200F951B0 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		0EF397B02B1916C50094A59F /* DepositHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositHistoryView.swift; sourceTree = "<group>"; };
+		0EF397B22B1916FB0094A59F /* WithdrawalHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawalHistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +132,9 @@
 			children = (
 				0ED3EA7C2B17509300F951B0 /* Veegil_BankApp.swift */,
 				0ED3EA7E2B17509300F951B0 /* ContentView.swift */,
+				0ED3EAA72B17532200F951B0 /* Views */,
+				0ED3EAA82B17534300F951B0 /* View Models */,
+				0ED3EAA62B17531300F951B0 /* Models */,
 				0ED3EA802B17509600F951B0 /* Assets.xcassets */,
 				0ED3EA822B17509600F951B0 /* Preview Content */,
 			);
@@ -125,6 +164,53 @@
 				0ED3EA992B17509700F951B0 /* Veegil_BankUITestsLaunchTests.swift */,
 			);
 			path = "Veegil BankUITests";
+			sourceTree = "<group>";
+		};
+		0ED3EAA62B17531300F951B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0ED3EAAF2B1756DF00F951B0 /* Extension.swift */,
+				0ED3EABC2B17925200F951B0 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0ED3EAA72B17532200F951B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0ED3EAA92B17539300F951B0 /* SignUpView.swift */,
+				0ED3EAAB2B1753A600F951B0 /* LogInView.swift */,
+				0ED3EAAD2B1753BB00F951B0 /* HomeView.swift */,
+				0E03CBFD2B185F8D0086E9E1 /* DepositView.swift */,
+				0E03CBFF2B185FAC0086E9E1 /* withdrawalView.swift */,
+				0EF397B02B1916C50094A59F /* DepositHistoryView.swift */,
+				0E03CC012B185FD00086E9E1 /* TransactionsView.swift */,
+				0EF397B22B1916FB0094A59F /* WithdrawalHistoryView.swift */,
+				0ED3EAB32B175A2700F951B0 /* Sub Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0ED3EAA82B17534300F951B0 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				0ED3EAB12B17575C00F951B0 /* LogInViewModel.swift */,
+				0ED3EAB82B17677E00F951B0 /* SignUpViewModel.swift */,
+				0ECDC0B82B194C01006E3F7E /* TransactionsViewModel.swift */,
+				0E03CC032B1867890086E9E1 /* DepositViewModel.swift */,
+				0E683D432B1B2AE800E4915D /* WithdrawalViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		0ED3EAB32B175A2700F951B0 /* Sub Views */ = {
+			isa = PBXGroup;
+			children = (
+				0ED3EAB42B175A4800F951B0 /* LogoView.swift */,
+				0ED3EAB62B175C8E00F951B0 /* IsTappedView.swift */,
+				0ED3EABA2B176A6900F951B0 /* LoadingView.swift */,
+			);
+			path = "Sub Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +344,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ED3EA7F2B17509300F951B0 /* ContentView.swift in Sources */,
+				0ECDC0B92B194C01006E3F7E /* TransactionsViewModel.swift in Sources */,
+				0ED3EAAA2B17539300F951B0 /* SignUpView.swift in Sources */,
+				0ED3EAAC2B1753A600F951B0 /* LogInView.swift in Sources */,
+				0ED3EABD2B17925300F951B0 /* Models.swift in Sources */,
+				0E03CBFE2B185F8D0086E9E1 /* DepositView.swift in Sources */,
+				0E03CC022B185FD00086E9E1 /* TransactionsView.swift in Sources */,
+				0EF397B32B1916FB0094A59F /* WithdrawalHistoryView.swift in Sources */,
+				0ED3EABB2B176A6900F951B0 /* LoadingView.swift in Sources */,
+				0E03CC042B1867890086E9E1 /* DepositViewModel.swift in Sources */,
+				0ED3EAB02B1756DF00F951B0 /* Extension.swift in Sources */,
+				0EF397B12B1916C50094A59F /* DepositHistoryView.swift in Sources */,
+				0ED3EAB92B17677E00F951B0 /* SignUpViewModel.swift in Sources */,
+				0ED3EAAE2B1753BB00F951B0 /* HomeView.swift in Sources */,
+				0ED3EAB52B175A4800F951B0 /* LogoView.swift in Sources */,
 				0ED3EA7D2B17509300F951B0 /* Veegil_BankApp.swift in Sources */,
+				0E03CC002B185FAC0086E9E1 /* withdrawalView.swift in Sources */,
+				0ED3EAB72B175C8E00F951B0 /* IsTappedView.swift in Sources */,
+				0ED3EAB22B17575C00F951B0 /* LogInViewModel.swift in Sources */,
+				0E683D442B1B2AE800E4915D /* WithdrawalViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
